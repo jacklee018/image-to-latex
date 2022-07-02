@@ -15,9 +15,9 @@ export class Main_page_AudioContoller extends Component {
         const audioSource=this.node.getComponent(AudioSource)!;
         assert(audioSource);
         this._audioSource=audioSource;
-        resources.load("songs/test",AudioClip,(err,audioClip)=>{
+        /* resources.load("songs/test",AudioClip,(err,audioClip)=>{
             this._audioSource.clip=audioClip;
-        });
+        }); */
         //this.node.on('touchend',this.button_pressed,this);
         //this.node.on('touchend',this.music_set,this);
         
